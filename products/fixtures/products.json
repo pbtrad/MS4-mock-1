@@ -1,0 +1,464 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340155",
+            "name": "Martin D 16 GT",
+            "description": "Dreadnought size all solid guitar. Solid Spruce Top. Solid Mahogany back and sides. Polished Gloss top. Hybrid X bracing, handcrafted in Nazareth, Pennsylvania. Left hand available at same price",
+            "price": 1799.00,
+            "category": 1,
+            "rating": 4.6,
+            "image_url": "https://www.goodwinsmusic.ie/acoustic_guitars/acoustic_guitars_/Martin_D18_Standard_Acoustic_guitar",
+            "image": "Martin D-18.jpg"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340156",
+            "name": "MARTIN D-18 MODERN DELUXE",
+            "description": "The D-18 Modern Deluxe is a new take on Martin Vintage. This guitar is packed with custom features and modern technology that you have to see, feel, and hear for yourself. The vintage appointments include a Sitka spruce Vintage Tone System (VTS) top, a dovetail neck joint, and natural protein glue construction that give it the rich, fully aged Martin tone that has inspired generations. The look is unlike anything in our production line to date with East Indian rosewood binding, stylish gold frets, gold open-gear tuners, and a unique 1930s style script logo inlaid in pearl on the headstock. Some ultra-modern features include a titanium truss rod, Liquidmetal® bridge pins with red dots, and a composite carbon fiber bridgeplate that boosts volume without adding weight. And we’ve included a new neck shape that is slightly asymmetrical for maximum hand comfort up and down the fretboard. This guitar is anything but standard.",
+            "price": 4295.00,
+            "category": 1,
+            "rating": 4.8,
+            "image_url": "https://www.goodwinsmusic.ie/image/cache/gui0270-213x278.jpg",
+            "image": "Martin D-18 Modern DLX-213x278.jpg"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340157",
+            "name": "MARTIN D 16 GT",
+            "description": "Dreadnought size all solid guitar. Solid Spruce Top. Solid Mahogany back and sides. Polished Gloss top. Hybrid X bracing, handcrafted in Nazareth, Pennsylvania. Left hand available at same price.",
+            "price": 1799.00,
+            "category": 1,
+            "rating": 4.2,
+            "image_url": "https://www.goodwinsmusic.ie/acoustic_guitars/acoustic_guitars_/Martin_D16_GT",
+            "image": "Martin-D16.jpg"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340158",
+            "name": "MARTIN DSS-17 WHISKEY SUNSET",
+            "description": "Martin DSS-17  acoustic guitar. 14 fret sloped shoulder dreadnought. Solid sitka spruce top. Solid mahogany back and sides. Dovetail neck joint. Scalloped x-bracing. Modified low oval neck shape. 25.4 inch scale length. 1 3/4 inch nut width. satin whiskey sunset sunburst finish. Includes martin softshell case",
+            "price": 1799.00,
+            "category": 1,
+            "rating": 4.6,
+            "image_url": "https://www.goodwinsmusic.ie/acoustic_guitars/acoustic_guitars_/Martin_D16_GT",
+            "image": "martin dss 17-213x278.jpg"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340159",
+            "name": "MARTIN HD 28",
+            "description": "Standard Series .Solid Sitka Spruce top. Solid East Indian Rosewood back and sides. Herringbone inlay on top. Select Hardwood neck with Solid black ebony fingerboard. Bone top nut and saddle. Solid black ebony bridge. Polished Gloss finish. Supplied in Deluxe Martin hardshell case.",
+            "price": 3249.00,
+            "category": 1,
+            "rating": 4.9,
+            "image_url": "https://www.goodwinsmusic.ie/acoustic_guitars/acoustic_guitars_/Martin_D16_GT",
+            "image": "martinhd28-213x278.jpg"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340160",
+            "name": "SIGMA DM ST",
+            "description": "Full Size Dreadnought Body. Solid Sitka Spruce Top. Mahogany Back and Sides. Rosewood Fingerboard. Bone Top Nut and Bridge Saddle. Chrome Die-cast Machine Heads. Natural satin Finish. The Solid Sitka Spruce Top  and its Natural Satin Finish gives a Fine  and Clear Response.",
+            "price": 249.00,
+            "category": 1,
+            "rating": 2.3,
+            "image_url": "https://www.goodwinsmusic.ie/acoustic_guitars/acoustic_guitars_/Martin_D16_GT",
+            "image": "sigmadm1st-213x278.jpg"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340161",
+            "name": "SIGMA 000M-15+",
+            "description": "New Sigma Series! Reproduction of the cult series of Japanese guitars from the 1970's 15 Series.  000 body shape with 14 frets. Solid Mahogany top. Mahogany back and sides. Mahogany neck with Micarta fingerboard. Grover tuners",
+            "price": 349.00,
+            "category": 1,
+            "rating": 3.2,
+            "image_url": "https://www.goodwinsmusic.ie/acoustic_guitars/acoustic_guitars_/Martin_D16_GT",
+            "image": "sigma000M-15-213x278.jpg"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340155",
+            "name": "SIGMA DM-15+",
+            "description": "Sigma M Series. Solid Mahogany top. Mahogany back and sides. Mahogany neck with Micarta fingerboard. Bone top nut and saddle. Grover chrome diecast tuners",
+            "price": 3249.00,
+            "category": 1,
+            "rating": 4.9,
+            "image_url": "https://www.goodwinsmusic.ie/acoustic_guitars/acoustic_guitars_/Martin_D16_GT",
+            "image": "Sigma-DM-15-213x278.jpg"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340155",
+            "name": "SIGMA OOOM 1 ST",
+            "description": "Acoustic auditorium size. Solid Sitka Spruce  Top. Mahogany Back and Sides. Mahogany neck With Indian Rosewood Fingerboard. Bone Top Nut. Bone Saddle compensated. Chrome Die Cast Machine Heads. This guitar because of its 000 or Auditorium size is very comfortable for all players.",
+            "price": 299.00,
+            "category": 1,
+            "rating": 3.1,
+            "image_url": "https://www.goodwinsmusic.ie/acoustic_guitars/acoustic_guitars_/Martin_D16_GT",
+            "image": "Sigma-OOOM 1-213x278.jpg"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340163",
+            "name": "APC 851 Bouzouki",
+            "description": "This is an Antonio Carvalho Bouzouki, handmade in Portugal. Beautifully crafted with a solid spruce top, solid rosewood back and sides, rosewood fingerboard, and mahogany neck. With its herringbone top purfling and mother of pearl inlaid soundhole rosette, this is an incredibly attractive, great sounding instrument at a very competitive price. Founded by Antonio Pinto Carvalho, APC Instruments is a Portuguese company with over 40 years’ experience in the manufacture of high-quality string instruments. Carvalho, a descendant of the famous 19th-century school of guitar players in Porto city, has been a luthier since 1961, having learned the art from his grandfather. Today, APC Instruments is one of the largest producers of high-quality instruments in Portugal.",
+            "price": 999.00,
+            "category": 2,
+            "rating": 3.5,
+            "image_url": "https://www.goodwinsmusic.ie/acoustic_guitars/acoustic_guitars_/Martin_D16_GT",
+            "image": "APC-851-bouzouki.jpg"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340164",
+            "name": "Ashbury Lindisfarne Bouzouki",
+            "description": "A large onion shaped body. Solid cedar top, solid koa back and sides. Bound oval sound hole, wood binding. Die-cast Grover machine heads. Compensated bone saddle, rosewood bridge.",
+            "price": 499.00,
+            "category": 2,
+            "rating": 2.5,
+            "image_url": "https://www.goodwinsmusic.ie/acoustic_guitars/acoustic_guitars_/Martin_D16_GT",
+            "image": "ashbury-lindisfarne-bouzouki.jpg"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340165",
+            "name": "Epiphone MM-50E Pro Mandolin",
+            "description": "The Epiphone MM-50E Professional Mandolin combines the innovation and classic design that players have come to expect from Epiphone. The MM-50E is the first mandolin that allows you to adjust the output level of each individual string pair, solving the inherent problem of unbalanced string pair volume when plugged in. These features, combined with the classic Lloyd Loar era F-Style body shape and neck, make the MM-50E a one-of-a kind instrument.",
+            "price": 599.00,
+            "category": 2,
+            "rating": 4.1,
+            "image_url": "https://www.goodwinsmusic.ie/acoustic_guitars/acoustic_guitars_/Martin_D16_GT",
+            "image": "epiphone-mandolin.jpg"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340166",
+            "name": "McBrides DFM-90 Mandolin",
+            "description": "The Epiphone MM-50E Professional Mandolin combines the innovation and classic design that players have come to expect from Epiphone. The MM-50E is the first mandolin that allows you to adjust the output level of each individual string pair, solving the inherent problem of unbalanced string pair volume when plugged in. These features, combined with the classic Lloyd Loar era F-Style body shape and neck, make the MM-50E a one-of-a kind instrument.",
+            "price": 669.00,
+            "category": 2,
+            "rating": 2.4,
+            "image_url": "https://www.goodwinsmusic.ie/acoustic_guitars/acoustic_guitars_/Martin_D16_GT",
+            "image": "McBrides-dfm.jpg"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340167",
+            "name": "Akord Kvint Model 40 Violin | Full Size",
+            "description": "An instrument of superior craftsmanship, attractively aged spruce and flamed Bosnian maple wood of supreme quality. Luxurious rosewood trim, Evah Pirazzi strings. Milo Stamm Premium bridge, one black adjuster.",
+            "price": 2899.00,
+            "category": 3,
+            "rating": 4.8,
+            "image_url": "https://www.goodwinsmusic.ie/acoustic_guitars/acoustic_guitars_/Martin_D16_GT",
+            "image": "Akford-Kvint.jpg"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340168",
+            "name": "Akord Kvint Model 30 Violin | Full Size",
+            "description": "Handcrafted by master craftsman Jan Lorenz. Highly figured maple, one or two-piece back with sought-out quality of the structure and sinuosity. Exceptionally fine spruce top. Finest ebony gold garniture. Lightly shaded dark amber finish. Spirit varnish. Inlaid ebony/maple purfling. Top tuned with HD generator. Master crafted. Milo Stamm Standart bridge, two black adjusters with gol screws, Vision Titanium Orchestra strings.",
+            "price": 1789.00,
+            "category": 3,
+            "rating": 4.7,
+            "image_url": "https://www.goodwinsmusic.ie/acoustic_guitars/acoustic_guitars_/Martin_D16_GT",
+            "image": "Akford-Kvint-30.jpg"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340169",
+            "name": "Akord Kvint Model 20 Violin | Full Size",
+            "description": "Flamed curly maple back, sides & neck. Selected aged hand-carved spruce top. Richly shaded chestnut brown spirit varnish. Inlaid ebony & maple purfling, ebony fittings. Milo Stamm standard bridge, two black adjusters, Thomastik Dominant strings.",
+            "price": 1659.00,
+            "category": 3,
+            "rating": 3.9,
+            "image_url": "https://www.goodwinsmusic.ie/acoustic_guitars/acoustic_guitars_/Martin_D16_GT",
+            "image": "Akfor-Kvint-20.jpg"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340170",
+            "name": "Steiner 200 AA Violin with Case | Antique Brown",
+            "description": "Excellent instrument for beginner or intermediate student. Comes with hard case.",
+            "price": 459.00,
+            "category": 3,
+            "rating": 1.8,
+            "image_url": "https://www.goodwinsmusic.ie/acoustic_guitars/acoustic_guitars_/Martin_D16_GT",
+            "image": "steiner-200.jpg"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340171",
+            "name": "Ddrum Dios 5-Piece Drum Shell Pack | Walnut",
+            "description": "The Dios Walnut's gorgeous wood is dense and heavy. It resonates with thunderous enormity in the lower register and seems to almost expand with every stroke. However, its hardwood characteristics allow for brightness in the voicing that is not attainable with standard maple or birch, making it the perfect drum kit for recording. Without exception, this is a drum that will surprise even the most finicky percussion connoisseur.",
+            "price": 1899.00,
+            "category": 4,
+            "rating": 3.6,
+            "image_url": "https://www.goodwinsmusic.ie/acoustic_guitars/acoustic_guitars_/Martin_D16_GT",
+            "image": "Ddrum-dios.jpg"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340172",
+            "name": "Ddrum Dios Elite 5-Piece Drum Shell Pack | Bubinga",
+            "description": "Beginning with a choice of Bubinga from West Africa, the shells in this drum kit are thinner in nature to allow the unique tonal character of these exotic hardwoods to truly shine. The plies of each shell (8 for snares and kicks, 6 for toms,) are cross-laminated in an alternating vertical/horizontal grain pattern. This allows the outer shell to showcase the natural splendor of the wood through a glass-like lacquer finish. The hand-stained inner shell of each drum creates a smooth conduit for vibration and sound to travel through, delivering tone that will ignite an almost emotional response every time it is played. Accented further with classic tube-style lugs, die-cast hoops, and a variety of unique set-ups, Dios Series drums echo the call for a new percussive tradition, set by the players of the New Revolution. The rich texture of Dios series 100% African Bubinga shells is unparalleled. Although its colour and grain carries a dark visual appearance, its tonal body is bright and focused, projecting with unparelleled attack and volume. This is due to the harder nature of the wood and heaviness of the shell. It speaks with a voice that is delicate, yet explosive. Shimmering highs and channeled lows are the hallmark of its character. This is definitely one that must be played to be believed. ",
+            "price": 1849.00,
+            "category": 4,
+            "rating": 3.7,
+            "image_url": "https://www.goodwinsmusic.ie/acoustic_guitars/acoustic_guitars_/Martin_D16_GT",
+            "image": "Ddrum-eilte.jpg"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340173",
+            "name": "DXP JBM0211 5-Piece Birch Shell Drum Kit | Red",
+            "description": "Great value 5-piece Birch Shell drum kit.",
+            "price": 399.00,
+            "category": 4,
+            "rating": 2.7,
+            "image_url": "https://www.goodwinsmusic.ie/acoustic_guitars/acoustic_guitars_/Martin_D16_GT",
+            "image": "dxp-drums.jpg"
+        }
+    },
+    {
+        "pk": 21,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340174",
+            "name": "Tycoon 12 Master Handcrafted Original Djembe",
+            "description": "Constructed of hand-selected, aged Siam Oak Wood, providing exceptional durability and unmatched sound.",
+            "price": 339.00,
+            "category": 4,
+            "rating": 3.7,
+            "image_url": "https://www.goodwinsmusic.ie/acoustic_guitars/acoustic_guitars_/Martin_D16_GT",
+            "image": "djembe.jpg"
+        }
+    },
+    {
+        "pk": 22,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340175",
+            "name": "Elixir acoustic nanoweb phospher bronze 12-53",
+            "description": "Elixir Nanoweb wound acoustic guitar strings are sheathed in a thin polymer coating that retains a natural feel while protecting the windings from the gunk that shortens their life and ruins tone. The coating gives them a smoother feel and reduces finger squeaks. 12-53.",
+            "price": 20.00,
+            "category": 5,
+            "rating": 4.7,
+            "image_url": "https://www.goodwinsmusic.ie/acoustic_guitars/acoustic_guitars_/Martin_D16_GT",
+            "image": "Nanoweb-LRG-1569494856-300x348.jpg"
+        }
+    },
+    {
+        "pk": 23,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340176",
+            "name": "Elixir ac. set polyweb 11-52 cust.li",
+            "description": "ELIXIR AC. SET POLYWEB 11-52 CUST.LI.",
+            "price": 18.00,
+            "category": 5,
+            "rating": 4.7,
+            "image_url": "https://www.goodwinsmusic.ie/acoustic_guitars/acoustic_guitars_/Martin_D16_GT",
+            "image": "polyweb-elixir.jpg"
+        }
+    },
+    {
+        "pk": 24,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340177",
+            "name": "DADDARIO EJ17 13-56 PHOSPHER BRONZE ACOUSTIC STRINGS",
+            "description": "D’ADDARIO ACOUSTIC PHOSPHOR BRONZE MEDIUM 13-56",
+            "price": 9.00,
+            "category": 5,
+            "rating": 3.3,
+            "image_url": "https://www.goodwinsmusic.ie/acoustic_guitars/acoustic_guitars_/Martin_D16_GT",
+            "image": "DADEJ17.jpg"
+        }
+    },
+    {
+        "pk": 25,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340178",
+            "name": "D’ADDARIO XT 13-56 PHOSPHER BRONZE ACOUSTIC STRINGS",
+            "description": "D’Addario XT Acoustic Phosphor Bronze strings combine our most popular acoustic alloy with an advanced corrosion resistance treatment on every string in the set, preserving the natural tone and feel of uncoated strings. Available for 6 and 12 String acoustic guitar ranging from extra-light to medium gauges.",
+            "price": 16.99,
+            "category": 5,
+            "rating": 4.8,
+            "image_url": "https://www.goodwinsmusic.ie/acoustic_guitars/acoustic_guitars_/Martin_D16_GT",
+            "image": "d-addario-xt-phosphor-bronze-acoustic-guitar-strings-xtapb1356-medium-13-56-14-300x301.jpg"
+        }
+    },
+    {
+        "pk": 26,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340179",
+            "name": "MARTIN MA550 PHOSPHER BRONZE 13-56",
+            "description": "These strings are engineered with the performer in mind and they will always stand up to rigorous practice and performance schedules. We start with our highest tensile-strength core wire, then tin-plate it on all six strings for added corrosion resistance; because what you don’t see matters! When coupled with our highest quality wrap wire you get consistent true tone that you can count on song after song. Available in 80/20 Bronze and 92/8 Phosphor Bronze. Martin Authentic Acoustic SP® strings offer excellent tuning stability, corrosion resistance and great playability.",
+            "price": 9.00,
+            "category": 5,
+            "rating": 3.9,
+            "image_url": "https://www.goodwinsmusic.ie/acoustic_guitars/acoustic_guitars_/Martin_D16_GT",
+            "image": "martin-ma550-sp-phosphor-bronze-authentic-acoustic-guitar-strings-medium-13-56-11-1569518805-300x393.jpg"
+        }
+    },
+    {
+        "pk": 27,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340180",
+            "name": "Shubb acoustic guitar capo",
+            "description": "Nickel Plated With Duel Lever And Spring-Loaded Thumbscrew Tension Adjustment System.",
+            "price": 25.00,
+            "category": 6,
+            "rating": 3.9,
+            "image_url": "http://www.goodwinsmusic.ie/acoustic_guitars/acoustic_guitars_/Martin_D16_GT",
+            "image": "capo.jpg"
+        }
+    },
+    {
+        "pk": 28,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340181",
+            "name": "Gibson The Western Vintage Strap",
+            "description": "Handmade in the USA with premium materials and hardware. This genuine brown leather strap has a 2.25″ Width and a 39.5″ – 66″ Adjustable Length.",
+            "price": 89.99,
+            "category": 6,
+            "rating": 4.0,
+            "image_url": "http://www.goodwinsmusic.ie/acoustic_guitars/acoustic_guitars_/Martin_D16_GT",
+            "image": "ASWV-BRN_glam-300x300.png"
+        }
+    },
+    {
+        "pk": 29,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340182",
+            "name": "Tama rw200 rhythm watch drum metronome",
+            "description": "Metronome for Drummer with Backlit Display, 30 Memory Settings, 9 Different Beat Divisions, 35-250 BPM Support, and Beat Division Volume Controls.",
+            "price": 92.99,
+            "category": 6,
+            "rating": 4.1,
+            "image_url": "http://www.goodwinsmusic.ie/acoustic_guitars/acoustic_guitars_/Martin_D16_GT",
+            "image": "RW200-large-1569518670-300x358.jpg"
+        }
+    },
+    {
+        "pk": 26,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340179",
+            "name": "MARTIN MA550 PHOSPHER BRONZE 13-56",
+            "description": "These strings are engineered with the performer in mind and they will always stand up to rigorous practice and performance schedules. We start with our highest tensile-strength core wire, then tin-plate it on all six strings for added corrosion resistance; because what you don’t see matters! When coupled with our highest quality wrap wire you get consistent true tone that you can count on song after song. Available in 80/20 Bronze and 92/8 Phosphor Bronze. Martin Authentic Acoustic SP® strings offer excellent tuning stability, corrosion resistance and great playability.",
+            "price": 9.00,
+            "category": 7,
+            "rating": 3.9,
+            "image_url": "https://www.goodwinsmusic.ie/acoustic_guitars/acoustic_guitars_/Martin_D16_GT",
+            "image": "martin-ma550-sp-phosphor-bronze-authentic-acoustic-guitar-strings-medium-13-56-11-1569518805-300x393.jpg"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340168",
+            "name": "Akord Kvint Model 30 Violin | Full Size",
+            "description": "Handcrafted by master craftsman Jan Lorenz. Highly figured maple, one or two-piece back with sought-out quality of the structure and sinuosity. Exceptionally fine spruce top. Finest ebony gold garniture. Lightly shaded dark amber finish. Spirit varnish. Inlaid ebony/maple purfling. Top tuned with HD generator. Master crafted. Milo Stamm Standart bridge, two black adjusters with gol screws, Vision Titanium Orchestra strings.",
+            "price": 1789.00,
+            "category": 7,
+            "rating": 4.7,
+            "image_url": "https://www.goodwinsmusic.ie/acoustic_guitars/acoustic_guitars_/Martin_D16_GT",
+            "image": "Akford-Kvint-30.jpg"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340156",
+            "name": "MARTIN D-18 MODERN DELUXE",
+            "description": "The D-18 Modern Deluxe is a new take on Martin Vintage. This guitar is packed with custom features and modern technology that you have to see, feel, and hear for yourself. The vintage appointments include a Sitka spruce Vintage Tone System (VTS) top, a dovetail neck joint, and natural protein glue construction that give it the rich, fully aged Martin tone that has inspired generations. The look is unlike anything in our production line to date with East Indian rosewood binding, stylish gold frets, gold open-gear tuners, and a unique 1930s style script logo inlaid in pearl on the headstock. Some ultra-modern features include a titanium truss rod, Liquidmetal® bridge pins with red dots, and a composite carbon fiber bridgeplate that boosts volume without adding weight. And we’ve included a new neck shape that is slightly asymmetrical for maximum hand comfort up and down the fretboard. This guitar is anything but standard.",
+            "price": 4295.00,
+            "category": 8,
+            "rating": 4.8,
+            "image_url": "https://www.goodwinsmusic.ie/image/cache/gui0270-213x278.jpg",
+            "image": "Martin D-18 Modern DLX-213x278.jpg"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340163",
+            "name": "APC 851 Bouzouki",
+            "description": "This is an Antonio Carvalho Bouzouki, handmade in Portugal. Beautifully crafted with a solid spruce top, solid rosewood back and sides, rosewood fingerboard, and mahogany neck. With its herringbone top purfling and mother of pearl inlaid soundhole rosette, this is an incredibly attractive, great sounding instrument at a very competitive price. Founded by Antonio Pinto Carvalho, APC Instruments is a Portuguese company with over 40 years’ experience in the manufacture of high-quality string instruments. Carvalho, a descendant of the famous 19th-century school of guitar players in Porto city, has been a luthier since 1961, having learned the art from his grandfather. Today, APC Instruments is one of the largest producers of high-quality instruments in Portugal.",
+            "price": 999.00,
+            "category": 8,
+            "rating": 3.5,
+            "image_url": "https://www.goodwinsmusic.ie/acoustic_guitars/acoustic_guitars_/Martin_D16_GT",
+            "image": "APC-851-bouzouki.jpg"
+        }
+    }
+]
