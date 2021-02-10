@@ -17,10 +17,10 @@
                 Instruments
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="instrument-link">
-                <a href="" class="dropdown-item">Guitars</a>
-                <a href="" class="dropdown-item">Bouzoukis &amp; Mandolins</a>
-                <a href="" class="dropdown-item">Violins</a>
-                <a href="" class="dropdown-item">Percussion</a>
+                <a href="{% url 'products' %}?category=guitars" class="dropdown-item">Guitars</a>
+                <a href="{% url 'products' %}?category=bouzouki_mandolin" class="dropdown-item">Bouzoukis &amp; Mandolins</a>
+                <a href="{% url 'products' %}?category=violins" class="dropdown-item">Violins</a>
+                <a href="{% url 'products' %}?category=percussion" class="dropdown-item">Percussion</a>
             </div>
         </li>
 
@@ -29,9 +29,9 @@
                 Strings &amp; Accessories
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="strings-link">
-                <a href="" class="dropdown-item">Guitar Strings</a>
-                <a href="" class="dropdown-item">Bouzouki &amp; Mandolin Strings</a>
-                <a href="" class="dropdown-item">Violin Strings</a>
+                <a href="{% url 'products' %}?category=strings" class="dropdown-item">Guitar Strings</a>
+                <a href="{% url 'products' %}?category=strings" class="dropdown-item">Bouzouki &amp; Mandolin Strings</a>
+                <a href="{% url 'products' %}?category=strings" class="dropdown-item">Violin Strings</a>
             </div>
         </li>
 
@@ -40,10 +40,10 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Clearance</a>
+                <a href="{% url 'products' %}?category=deals, new_arrivals" class="dropdown-item">All Specials</a>
             </div>
         </li>
     </ul>
