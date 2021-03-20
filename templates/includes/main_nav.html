@@ -1,51 +1,179 @@
-<div class="collapse navbar-collapse" id="main-nav">
-    <ul class="navbar-nav w-auto mx-auto">
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<nav class="navbar navbar-expand-lg navbar-dark bg-transparent flex-nowrap">
+
+    <a class="navbar-brand mb-3 ml-lg-5" href="{% url 'home' %}"><strong>Music Bits</strong></a>
+    <button class="navbar-toggler" type="button" data-toggle="modal" data-target="#sidebarModal" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item dropdown mx-5 mt-4 nowrap">
+                <a class="nav-link text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 All Products
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
-                <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
-                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
-                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
-            </div>
-        </li>
-
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="instrument-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="{% url 'products' %}?sort=price&direction=asc">By Price</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?sort=rating&direction=desc">By Rating</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?sort=category&direction=asc">By Category</a>
+                    <a class="dropdown-item" href="{% url 'products' %}">All Products</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown mx-5 mt-4 nowrap">
+                <a class="nav-link text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Instruments
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="instrument-link">
-                <a href="{% url 'products' %}?category=guitars" class="dropdown-item">Guitars</a>
-                <a href="{% url 'products' %}?category=bouzouki_mandolin" class="dropdown-item">Bouzoukis &amp; Mandolins</a>
-                <a href="{% url 'products' %}?category=violins" class="dropdown-item">Violins</a>
-                <a href="{% url 'products' %}?category=percussion" class="dropdown-item">Percussion</a>
-            </div>
-        </li>
-
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="strings-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Strings &amp; Accessories
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="strings-link">
-                <a href="{% url 'products' %}?category=strings" class="dropdown-item">Guitar Strings</a>
-                <a href="{% url 'products' %}?category=strings" class="dropdown-item">Bouzouki &amp; Mandolin Strings</a>
-                <a href="{% url 'products' %}?category=strings" class="dropdown-item">Violin Strings</a>
-                <a href="{% url 'products' %}?category=accessories" class="dropdown-item">Accessories</a>
-            </div>
-        </li>
-
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="{% url 'products' %}?category=guitars">Guitars</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category=bouzouki_mandolin">Bouzoukis &amp; Mandolins</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category=violins">Violins</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?category=percussion">Percussion</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown mx-5 mt-4 nowrap">
+                <a class="nav-link text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Strings & Accessories
+              </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a href="{% url 'products' %}?category=strings" class="dropdown-item">Guitar Strings</a>
+                    <a href="{% url 'products' %}?category=strings" class="dropdown-item">Bouzouki &amp; Mandolin Strings</a>
+                    <a href="{% url 'products' %}?category=strings" class="dropdown-item">Violin Strings</a>
+                    <a href="{% url 'products' %}?category=accessories" class="dropdown-item">Accessories</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown mx-5 mt-4 nowrap">
+                <a class="nav-link text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Special Offers
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
-                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
-                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Clearance</a>
-                <a href="{% url 'products' %}?category=deals, new_arrivals" class="dropdown-item">All Specials</a>
+              </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                    <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                    <a href="{% url 'products' %}?category=deals" class="dropdown-item">Clearance</a>
+                    <a href="{% url 'products' %}?category=deals, new_arrivals" class="dropdown-item">All Specials</a>
+                </div>
+            </li>
+            <li class="nav-item me-3 me-lg-0 mx-5 mt-2">
+                <a class="{% if grand_total %} {% else %}text-black{% endif %} nav-link" href="{% url 'view_bag' %}">
+                    <div class="text-center text-white">
+                        <div><i class="fas fa-shopping-cart"></i></div>
+                        <p><small class="my-0">
+                            {% if grand_total %}
+                                €{{ grand_total|floatformat:2 }}
+                            {% else %}
+                                €0.00
+                            {% endif %}
+                        </small></p>
+                    </div>
+                </a>
+            </li>
+
+
+            <li class="nav-item me-3 me-lg-0 dropdown mt-3">
+                <a class="nav-link text-white" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-user"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    {% if request.user.is_authenticated %} {% if request.user.is_superuser %}
+                    <a href="{% url 'account_logout' %}" class="dropdown-item">Product Management</a> {% endif %}
+                    <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a> {% else %}
+                    <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
+                    <a href="{% url 'account_login' %}" class="dropdown-item">Login</a> {% endif %}
+                </ul>
+            </li>
+        </ul>
+
+        <button class="navbar-toggler" type="button" data-toggle="modal" data-target="#sidebarModal">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+<div class="container-fluid">
+
+    <div class="modal left fade menu" id="sidebarModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog position-fixed m-auto" role="document">
+            <div class="modal-content h-100">
+                <div class="modal-body p-3">
+                    <div class="nav flex-column">
+                        <a class="nav-item nav-link border-bottom border-dark" href="{% url 'home' %}">Music Bits</a>
+                       
+                        <li class="nav-item dropdown border-bottom border-dark">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            All Products
+                          </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="{% url 'products' %}?sort=price&direction=asc">By Price</a>
+                                <a class="dropdown-item" href="{% url 'products' %}?sort=rating&direction=desc">By Rating</a>
+                                <a class="dropdown-item" href="{% url 'products' %}?sort=category&direction=asc">By Category</a>
+                                <a class="dropdown-item" href="{% url 'products' %}">All Products</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown border-bottom border-dark">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Instruments
+                          </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="{% url 'products' %}?category=guitars">Guitars</a>
+                                <a class="dropdown-item" href="{% url 'products' %}?category=bouzouki_mandolin">Bouzoukis &amp; Mandolins</a>
+                                <a class="dropdown-item" href="{% url 'products' %}?category=violins">Violins</a>
+                                <a class="dropdown-item" href="{% url 'products' %}?category=percussion">Percussion</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown border-bottom border-dark">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Strings & Accessories
+                          </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a href="{% url 'products' %}?category=strings" class="dropdown-item">Guitar Strings</a>
+                                <a href="{% url 'products' %}?category=strings" class="dropdown-item">Bouzouki &amp; Mandolin Strings</a>
+                                <a href="{% url 'products' %}?category=strings" class="dropdown-item">Violin Strings</a>
+                                <a href="{% url 'products' %}?category=accessories" class="dropdown-item">Accessories</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown border-bottom border-dark">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            All Specials
+                          </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Clearance</a>
+                                <a href="{% url 'products' %}?category=deals, new_arrivals" class="dropdown-item">All Specials</a>
+                            </div>
+                        </li>
+                        <li class="nav-item mt-3 me-lg-0 border-bottom border-dark">
+                            <a class="{% if grand_total %} font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_bag' %}">
+                                <div class="text-center">
+                                    <div><i class="fas fa-shopping-cart fa-lg"></i></div>
+                                    <p class="my-0">
+                                        {% if grand_total %}
+                                            €{{ grand_total|floatformat:2 }}
+                                        {% else %}
+                                            €0.00
+                                        {% endif %}
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+
+
+                        <li class="nav-item me-3 me-lg-0 dropdown border-bottom border-dark">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-user"></i>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                {% if request.user.is_authenticated %} {% if request.user.is_superuser %}
+                                <a href="{% url 'account_logout' %}" class="dropdown-item">Product Management</a> {% endif %}
+                                <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a> {% else %}
+                                <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
+                                <a href="{% url 'account_login' %}" class="dropdown-item">Login</a> {% endif %}
+                            </ul>
+                        </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+                </div>
             </div>
-        </li>
-    </ul>
+        </div>
+    </div>
 </div>

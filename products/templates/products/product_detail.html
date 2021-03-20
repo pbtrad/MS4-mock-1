@@ -11,96 +11,121 @@
 
 {% block content %}
 <div class="overlay"></div>
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
-            <div class="image-container my-5">
-                {% if product.image %}
-                <a href="{{ product.image.url }}" target="_blank">
-                    <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
-                </a>
-                {% else %}
-                <a href="">
-                    <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
-                </a>
-                {% endif %}
-            </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4">
-            <div class="product-details-container mb-5 mt-md-5">
-                <p class="mb-0">{{ product.name }}</p>
-                <p class="lead mb-0 text-left font-weight-bold">€{{ product.price }}</p>
-                {% if product.category %}
-                <p class="small mt-1 mb-0">
-                    <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
-                        <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
-                    </a>
-                </p>
-                {% endif %}
-                {% if product.rating %}
-                <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
-                {% else %}
-                <small class="text-muted">No Rating</small>
-                {% endif %}
-                <p class="mt-3">{{ product.description }}</p>
-                <form class="form" action="{% url 'add_to_bag' product.id %}" method="POST">
-                    {% csrf_token %}
-                    <div class="form-row">
-                        {% with product.string_gauge as s %}
-                        {% if s %}
-                        <div class="col-12">
-                            <p><strong>String Gauge:</strong></p>
-                            <select class="form-control rounded-0 w-50" name="product_size" id='id_product_size'>
-                                <option value="heavy">Heavy</option>
-                                <option value="medium" selected>Medium</option>
-                                <option value="light">Light</option>
-                                <option value="extra-light">Extra-Light</option>
-                            </select>
-                        </div>
-                        {% endif %}
-                        <div class="col-12">
-                            <p class="mt-3"><strong>Quantity:</strong></p>
-                            <div class="form-group w-50">
-                                <div class="input-group">
-                                    <div class="input-group-prepend">
-                                        <button class="decrement-qty btn btn-black rounded-0"
-                                            data-item_id="{{ product.id }}" id="decrement-qty_{{ product.id }}">
-                                            <span class="icon">
-                                                <i class="fas fa-minus"></i>
-                                            </span>
-                                        </button>
-                                    </div>
-                                    <input class="form-control qty_input" type="number" name="quantity" value="1"
-                                        min="1" max="99" data-item_id="{{ product.id }}" id="id_qty_{{ product.id }}">
-                                    <div class="input-group-append">
-                                        <button class="increment-qty btn btn-black rounded-0"
-                                            data-item_id="{{ product.id }}" id="increment-qty_{{ product.id }}">
-                                            <span class="icon">
-                                                <i class="fas fa-plus"></i>
-                                            </span>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
+<div class="container mt-5">
+
+    <div class="col-md-12">
+        <section class="panel">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-6 mb-5 mb-md-0">
+                        <div class="pro-img-details">
+                            {% if product.image %}
+                            <a href="{{ product.image.url }}" target="_blank"></a>
+                            <img class="img-fluid mx-auto d-block" src="{{ product.image.url }}"
+                                alt="{{ product.name }}">
+                            {% else %}
+                            <a href="">
+                                <img src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+                            </a>
+                            {% endif %}
                         </div>
 
-                        <div class="col{% if s %}-12 mt-2{% endif %}">
-                            <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 mt-5">
-                                <span class="icon">
-                                    <i class="fas fa-chevron-left"></i>
-                                </span>
-                                <span class="text-uppercase">Keep Shopping</span>
-                            </a>
-                            <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-5" value="Add to Bag">
-                        </div>
-                        <input type="hidden" name="redirect_url" value="{{ request.path }}">
-                        {% endwith %}
                     </div>
-                </form>
-            </div>
-        </div>
+                    <div class="col-md-6">
+                        <h3 class="pro-d-title">
+                            <strong><a href="#" class="text-white">
+                                {{ product.name }}
+                            </a></strong>
+                        </h3>
+                        <p>
+                            {{ product.description }} </p>
+                        <!--<div class="product_meta">
+                                <span class="posted_in"> <strong>Categories:</strong> <a rel="tag" href="#">Jackets</a>, <a rel="tag" href="#">Men</a>, <a rel="tag" href="#">Shirts</a>, <a rel="tag" href="#">T-shirt</a>.</span>
+
+                            </div>-->
+                        {% if product.rating %}
+                        <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
+                        {% else %}
+                        <small class="text-muted">No Rating</small>
+                        {% endif %}
+                        <div class="mb-3"> <strong>Price : </strong><span class="pro-price"> €{{ product.price}}</span></div>
+
+                        <p class="mb-0">Quantity:</p>
+                        <form class="form" action="{% url 'add_to_bag' product.id %}" method="POST">
+                            {% csrf_token %}
+                            <div class="form-row">
+
+                                <div class="form-group w-50">
+                                    <div class="input-group w-lg-25 mb-5">
+                                        <div class="input-group-prepend">
+                                            <button class="decrement-qty btn btn-black rounded-0"
+                                                data-item_id="{{ product.id }}" id="decrement-qty_{{ product.id }}">
+                                                <span class="icon">
+                                                    <i class="fas fa-minus"></i>
+                                                </span>
+                                            </button>
+                                        </div>
+                                        <input class="form-control qty_input" type="number" name="quantity" value="1"
+                                            min="1" max="99" data-item_id="{{ product.id }}"
+                                            id="id_qty_{{ product.id }}">
+                                        <div class="input-group-append">
+                                            <button class="increment-qty btn btn-black rounded-0"
+                                                data-item_id="{{ product.id }}" id="increment-qty_{{ product.id }}">
+                                                <span class="icon">
+                                                    <i class="fas fa-plus"></i>
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    {% with product.string_gauge as sg product.has_sizes as s %}
+                                    {% if sg %}
+                                    <div class="col-12 pl-0">
+                                        <p class="mb-0">String Gauge:</p>
+                                        <select class="form-control rounded-0 w-50" name="product_size"
+                                            id='id_product_size'>
+                                            <option value="heavy">Heavy</option>
+                                            <option value="medium" selected>Medium</option>
+                                            <option value="light">Light</option>
+                                            <option value="extra-light">Extra-Light</option>
+                                        </select>
+                                    </div>
+                                    {% endif %}
+                                    {% if s %}
+                                    <div class="col-12 pl-0">
+                                        <p class="mb-0">Size:</p>
+                                        <select class="form-control rounded-0 w-50" name="product_size"
+                                            id='id_product_size'>
+                                            <option value="heavy">4/4</option>
+                                            <option value="medium" selected>3/4</option>
+                                            <option value="light">1/2</option>
+                                            <option value="extra-light">1/4</option>
+                                        </select>
+                                    </div>
+                                    {% endif %}
+                                    
+                                    <div class="col{% if sg or s %}-12 pl-0 mt-2{% endif %}">
+                                        <input type="submit" class="btn shop-now-button text-uppercase mt-5"
+                                            value="Add to Bag">
+                                        <a href="{% url 'products' %}" class="btn shop-now-button rounded-0 mt-5">
+                                            <span class="icon">
+                                                <i class="fas fa-chevron-left"></i>
+                                            </span>
+                                            <span class="text-uppercase">Keep Shopping</span>
+                                        </a>
+                                        
+                                    </div>
+                                    <input type="hidden" name="redirect_url" value="{{ request.path }}">
+                                    {% endwith %}
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+        </section>
     </div>
 </div>
+</div>
+
 {% endblock %}
 
 {% block postloadjs %}
